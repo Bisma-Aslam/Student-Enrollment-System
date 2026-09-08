@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET
+**/bin/
+**/obj/
+
+# Logs
+*.log
+
+# Node / React
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# User-specific files
+*.user
+*.rsuser
+
+# SQL Server database files
+*.mdf
+*.ldf
+
+# ASP.NET configuration containing local/secrets
+**/appsettings.json
+**/appsettings.*.json
+
+# Visual Studio launch settings
+**/Properties/launchSettings.json
